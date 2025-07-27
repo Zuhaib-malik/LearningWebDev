@@ -10,12 +10,15 @@ Topic that i will learn hear
 8 => Understanding a
 9 => Understanding div
 10 => Understanding id
-11 => Understanding class
-11 => Understanding span
-11 => Understanding Forms
-11 => Understanding list
-11 => Understanding Table
-11 => Learn more about Html Tags
+12 => Understanding class
+13 => Understanding span
+14 => Understanding Forms
+15 => Understanding list
+16 => Understanding Table
+17 => Semantic HTML Tags
+18 => a11y
+19 => Meta tags and SEO
+120 => Learn more about Html Tags
 
 
 3 => Understanding Tags:
@@ -697,7 +700,8 @@ They are attributes used to assign identifiers to HTML elements so they can be t
 
     🔹 class: Used to group multiple elements
     🔸 id: Used to uniquely identify one element
-🔸 id Attribute
+    🔸 id Attribute
+
 ✅ What It Does:
 
     Gives an element a unique name
