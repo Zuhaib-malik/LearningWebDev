@@ -1,0 +1,10 @@
+001 Create a Simple Heading
+
+Instructions
+Task: Create an HTML document with a heading that says "Welcome to the course."
+
+Instructions:
+
+Use the h1 heading tag to display the text.
+
+    

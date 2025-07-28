@@ -1,0 +1,9 @@
+003 Create a Tooltip on Hover
+Instructions
+Task: Create a text element that shows additional information in a tooltip when hovered over.
+
+Instructions:
+
+Use the title attribute to add a tooltip to a text element.
+
+Keep value of title attribute as "This is a tooltip text"

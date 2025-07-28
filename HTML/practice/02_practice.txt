@@ -1,0 +1,14 @@
+002 Create a Paragraph with a Link
+Instructions
+Task: Create an HTML paragraph that contains a link to "www.example.com" with the text "Click here to visit."
+
+Instructions:
+
+Use the <p> tag for the paragraph.
+
+Use the <a> tag for the link.
+
+
+
+
+    
