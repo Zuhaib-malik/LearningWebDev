@@ -1,0 +1,36 @@
+Topics:
+    Selectors:
+
+        1 => Universal Selector
+            *{
+                this Selector select whole page
+            }
+
+        2 => Type Selecto
+
+            p{
+                this is type Selector which can select all the selected tag
+            }
+            
+        3 => class Selector
+            .class_name{
+                this is class selector where we use . to select class
+            }
+
+
+        4 => Atribute Selector
+            input[type="text"]{
+                this is the type selector
+            }
+        5 => Selectors
+        6 => Selectors
+        7 => Selectors
+        8 => Selectors
+        9 => Selectors
+        10 => Selectors
+        11 => Selectors
+
+
+
+
+Box Model:
