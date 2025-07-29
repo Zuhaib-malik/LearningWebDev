@@ -1,0 +1,39 @@
+.nav2{
+    background-color: #03256C;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+.btn2{
+    color: white;
+    background-color:  #1768AC;
+    border: none;
+    width: 100%;
+    padding: 10px 50px;
+    border-radius: 5px;
+
+}
+.nav2 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.nav2 li{
+    margin-bottom: 10px;
+}
+.nav2 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;  
+    width: 100%;
+    display: block;
+}
+.nav2 a:hover{
+    background-color: #2541B2;
+}
+.btn2:hover{
+    background-color:#06BEE1;
+    cursor: pointer;
+    border: solid white;
+}
