@@ -1,0 +1,219 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f2f5;
+  margin: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.flex-demo {
+  margin-bottom: 40px;
+}
+
+.flex-container {
+  display: flex;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 15px;
+  border: 1px solid #ccc;
+  min-height: 100px;
+}
+
+/* Flex Direction Examples */
+.row {
+  flex-direction: row;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* Justify Content Example */
+.space-between {
+  justify-content: space-between;
+}
+
+/* Align Items Example */
+.align-center {
+  align-items: center;
+  height: 150px;
+}
+
+/* Box Styles */
+.box {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  min-width: 60px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.tall {
+  height: 100px;
+  background-color: #e94e77;
+}
+
+
+/* 
+######### Notes ##########
+
+🧱 Flexbox Basics (Think of It Like a Box of Items)
+
+    You have a flex container (a parent box).
+
+    Inside it are flex items (child boxes).
+
+    Flexbox gives you powerful tools to:
+
+        Stack or line up items in rows or columns
+
+        Control spacing, alignment, and order
+
+        Handle different screen sizes easily
+
+
+
+🔧 Step-by-Step Breakdown
+1. Making a Flex Container
+
+To use Flexbox, you set the parent container to:
+
+display: flex;
+
+This turns the container into a flex container and its children into flex items.
+
+<div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+</div>
+
+.container {
+  display: flex;
+}
+
+🔄 Main Concepts You Must Know
+
+▶️ 1. flex-direction
+
+    This sets the direction the items flow in.
+    Value	Description	Visual
+    row	Default. Items go left to right	📦📦📦
+    row-reverse	Items go right to left	📦📦📦 ←
+    column	Items stack top to bottom	📦
+    📦
+    📦
+    column-reverse	Bottom to top	↑📦📦📦
+
+.container {
+  display: flex;
+  flex-direction: row; 
+}
+
+📏 2. justify-content
+
+    Controls horizontal alignment of items (when flex-direction: row).
+    Value	What it does
+    flex-start	Items go to the left
+    flex-end	Items go to the right
+    center	Items centered horizontally
+    space-between	Items spread with space between
+    space-around	Space on both sides of items
+    space-evenly	Equal space everywhere
+
+.container {
+  justify-content: space-between;
+}
+
+🧍 3. align-items
+
+Controls vertical alignment of items (when flex-direction: row).
+Value	Meaning
+flex-start	Top of container
+center	Center vertically
+flex-end	Bottom of container
+stretch	Stretch to fill (default)
+baseline	Align by text baseline
+
+.container {
+  align-items: center;
+}
+
+🧮 4. flex-wrap
+
+By default, all items try to stay on one line. Use flex-wrap to allow wrapping:
+
+.container {
+  flex-wrap: wrap;
+}
+
+Value	Meaning
+nowrap	Default, no wrap
+wrap	Wrap to next line
+wrap-reverse	Wrap upward
+🔢 5. flex (used on child items)
+
+You can control how much space each item takes:
+
+.box {
+  flex: 1;
+}
+
+If all items have flex: 1, they share space equally.
+📦 Example Summary
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+🎯 Easy Analogy
+
+Imagine a shelf with boxes on it:
+
+    flex-direction: Are the boxes in a row or stacked?
+
+    justify-content: How are they spaced on the shelf?
+
+    align-items: Are they all on the same vertical level?
+
+    flex-wrap: Can they move to another shelf (line) if there’s not enough space?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
