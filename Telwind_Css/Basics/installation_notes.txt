@@ -1,0 +1,6 @@
+Ways of using Telwind 
+1 => using cdn
+    go to Telwind css website copy cdn and then past in your html head section
+    this is not way to work for production it is just for testing 
+
+2 => 
