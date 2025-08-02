@@ -48,8 +48,8 @@ Want a quick code quiz to test yourself on this?
     */
 
 
-var user = "zuhaib" //avoid to use var 
+var user = "zuhaib"; //avoid to use var 
 console.log(user);
 
-let password = 4
-console.log(password)
+let password = 4;
+console.log(password);
