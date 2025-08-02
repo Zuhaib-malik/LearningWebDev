@@ -115,6 +115,6 @@ console.log("it  is cba1" ,cba);
 // changing to cba would not be reflected to abc 
 console.log("removing last element");
 
-cba.pop();
-console.log("it  is abc1" ,abc);
-console.log("it  is cba1" ,cba);
+cba1.pop();
+console.log("it  is abc1" ,abc1);
+console.log("it  is cba1" ,cba1);
