@@ -108,13 +108,16 @@ console.log("it  is cba" ,cba);
 
 
 let abc1 = [2,3,4];
-let cba1 = [...abc1];
+// meth 1
+// let cba1 = [...abc1];
+// meth 2
+let cba1 = abc1.slice();
 console.log("it  is abc1" ,abc1);
-console.log("it  is cba1" ,cba);
+console.log("it  is cba1" ,cba1);
 
 // changing to cba would not be reflected to abc 
 console.log("removing last element");
 
 cba1.pop();
-console.log("it  is abc1" ,abc1);
-console.log("it  is cba1" ,cba1);
+console.log("it  is abc1" , abc1);
+console.log("it  is cba1" , cba1);
