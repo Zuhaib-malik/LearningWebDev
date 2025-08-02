@@ -1,7 +1,4 @@
-
-
 /*
-
 📦 1. Non-Primitive (Reference) Data Types
 
 These are mutable and stored by reference.
@@ -36,6 +33,7 @@ console.log(x === y); // true (primitive values)
 let obj1 = { value: 100 };
 let obj2 = { value: 100 };
 console.log(obj1 === obj2); // false (different references)
+
 /*
 Summary Table:
 Feature	Primitive	Non-Primitive
