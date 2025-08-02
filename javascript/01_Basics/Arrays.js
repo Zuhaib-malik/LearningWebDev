@@ -30,7 +30,7 @@ console.log(colors[2]); // "blue"
 colors[1] = "yellow"; // ["red", "yellow", "blue"]
 
 /* Array Methods
-📌 Add/Remove Elements
+Add/Remove Elements
 Method	Description
 push()	Add to end
 pop()	Remove from end
@@ -88,4 +88,18 @@ let filtered = nums.filter(n => n > 20); // [30, 40]
 Array.isArray(fruits); // true
 typeof fruits;         // "object"
 
+
+// copy of array 
+// 1 soft copy 
+let abc = [2,3,4];
+let cba = abc;
+console.log("it  is abc" ,abc);
+console.log("it  is cba" ,cba);
+
+// changing to cba would be reflected to abc 
+console.log("removing last element");
+
+cba.pop();
+console.log("it  is abc" ,abc);
+console.log("it  is cba" ,cba);
 
