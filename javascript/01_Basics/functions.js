@@ -7,7 +7,7 @@ function greet(name) {
 
 console.log(greet('Alice')); // Hello, Alice!
 
-// ✅ 2. Function Expression
+// 2. Function Expression
 
 const add = function (a, b) {
   return a + b;
@@ -32,7 +32,7 @@ const divide = (a, b) => {
   return a / b;
 };
 
-/* ✅ 4. Immediately Invoked Function Expression (IIFE)
+/*  4. Immediately Invoked Function Expression (IIFE)
 
 Runs immediately after being defined: */
 
@@ -40,20 +40,20 @@ Runs immediately after being defined: */
   console.log('IIFE ran!');
 })();
 
-// ✅ 5. Function with Default Parameters
+//  5. Function with Default Parameters
 
 function greet(name = 'Guest') {
   return `Hello, ${name}`;
 }
 
-// ✅ 6. Rest Parameters
+//  6. Rest Parameters
 
 function sum(...numbers) {
   return numbers.reduce((total, num) => total + num, 0);
 }
 console.log(sum(1, 2, 3, 4)); // 10
 
-// ✅ 7. Callback Functions
+//  7. Callback Functions
 
 // Functions passed as arguments:
 
