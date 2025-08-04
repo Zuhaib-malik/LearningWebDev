@@ -5,10 +5,10 @@
     Returns a function as its result (or both).
 
 In short, functions that operate on other functions.
-✅ Why are higher-order functions useful?
+Why are higher-order functions useful?
 
 They let you write flexible, reusable, and cleaner code — especially when working with collections (arrays, objects) or asynchronous operations.
-💡 Common Examples:
+Common Examples:
 1. Passing functions as arguments */
 
 function greet(name) {
