@@ -1,0 +1,10 @@
+
+
+1 => Selection of Element 
+
+
+
+
+2 => changing of html
+3 => changing of css
+4 => Event listener
