@@ -27,11 +27,13 @@ var flag = null;
 sbulb.addEventListener("click", function(){
     if(flag == 0){
         bbul.style.backgroundColor = "black";
-        sbulb.innerHTML = "ON"
+        sbulb.textContent = "ON"
+        sbulb.style.backgroundColor = "orange";
         flag = 1;
     }else{
         bbul.style.backgroundColor = "yellow";
-        sbulb.innerHTML = "OFF"
+        sbulb.textContent = "OFF";
+        sbulb.style.backgroundColor = "black";
         flag = 0;
     }
 
