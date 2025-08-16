@@ -7,9 +7,9 @@ serve({
     fetch(request){
         const url = new URL(request.url);
         if(url.pathname === '/'){
-            return new Response('hellow this is / rout', {status: 200})
+            return new Response('hellow this is / route', {status: 200})
         }else if(url.pathname === '/sec'){
-            return new Response('hellow this is /sec rout', {status: 200})
+            return new Response('hellow this is /sec route', {status: 200})
         }else{
             return new Response('404 not found', {status: 404})
         }
