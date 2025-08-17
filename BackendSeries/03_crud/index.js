@@ -1,13 +1,33 @@
 import express from "express";
 
 const app = express();
+app.use(express.json());
 
 
-app.get('/', (req, res)=>{
-    res.send('this is testing');
+let data = [];
+let nextid = 1;
+
+// store fruits
+app.post('/fruits', (req, res)=>{
+    const {name, price}= req.body;
+    const newfruit = {id: nextid++, name , price};
+    data.push(newfruit);
+    res.status(201).send(newfruit);
 })
 
+// get all the fruits
+app.get('/fruits', (req, res)=>{
+    res.status(200).send(data)
+})
 
+// get fruit with id
+app.get('/fruits/:id', (req, res)=>{
+    const fruit = data.find(x => x.id === parseInt(req.params.id));
+    if (!fruit) {
+        return res.status(404).send('fruit not found');
+    }
+    res.send(fruit);
+})
 
 
 
@@ -17,6 +37,6 @@ app.get('/', (req, res)=>{
 
 const port = 3000;
 app.listen(port, ()=>{
-    console.log("your app is running...");
+    console.log("server is running...");
     
 })
