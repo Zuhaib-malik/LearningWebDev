@@ -29,7 +29,30 @@ app.get('/fruits/:id', (req, res)=>{
     res.send(fruit);
 })
 
+// update fruits
+app.put('/fruits/:id',(req,res) => {
+     const fruit = data.find(x => x.id === parseInt(req.params.id));
 
+    if (!fruit) {
+        return res.status(404).send('fruit not found');
+    }
+    res.send(fruit);
+    const {name, price} = req.body;
+
+    fruit.name = name;
+    fruit.price = price;
+    res.status(200).send(fruit);
+})
+
+// delete fruit
+app.delete('/fruits/:id', (req,res)=>{
+    const index = data.findIndex(t => t.id === parseInt(req.params.id));
+    if (index === -1) {
+        return res.status(404).send('fruit not found');
+    }
+    data.splice(index,1);
+    res.status(204).send('deleted');
+})
 
 
 
