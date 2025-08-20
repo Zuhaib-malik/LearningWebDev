@@ -51,7 +51,7 @@ app.delete('/fruits/:id', (req,res)=>{
         return res.status(404).send('fruit not found');
     }
     data.splice(index,1);
-    res.status(204).send('deleted');
+    res.status(204).send('Deleted');
 })
 
 
